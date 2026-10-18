@@ -1,0 +1,65 @@
+{
+  "indices": [
+    {
+      "name": "NIFTY",
+      "spot": 24500,
+      "iv": 0.14,
+      "lot_size": 65
+    },
+    {
+      "name": "SENSEX",
+      "spot": 80500,
+      "iv": 0.14,
+      "lot_size": 20
+    }
+  ],
+  "legs": [
+    {
+      "index": "NIFTY",
+      "opt": "C",
+      "strike": 24700,
+      "lots": -4
+    },
+    {
+      "index": "NIFTY",
+      "opt": "P",
+      "strike": 24300,
+      "lots": -4
+    },
+    {
+      "index": "NIFTY",
+      "opt": "C",
+      "strike": 24900,
+      "lots": 4
+    },
+    {
+      "index": "NIFTY",
+      "opt": "P",
+      "strike": 24100,
+      "lots": 4
+    },
+    {
+      "index": "SENSEX",
+      "opt": "C",
+      "strike": 81200,
+      "lots": -6
+    },
+    {
+      "index": "SENSEX",
+      "opt": "P",
+      "strike": 79800,
+      "lots": -6
+    }
+  ],
+  "sim": {
+    "minutes_remaining": 370,
+    "n_paths": 20000,
+    "corr": 0.97
+  },
+  "risk": {
+    "leg_sl_mult": 2.0,
+    "portfolio_sl_inr": 25000,
+    "slippage": 0.02,
+    "cost_per_lot": 40
+  }
+}

@@ -1,0 +1,11 @@
+isin,issuer,rating,coupon,freq,maturity,clean_price
+SAMPLE0001,Alpha Finance Ltd (illustrative),AAA,7.80,1,2029-03-15,101.20
+SAMPLE0002,Beta Housing Corp (illustrative),AAA,7.45,2,2031-06-30,99.10
+SAMPLE0003,Gamma Power Ltd (illustrative),AA+,8.35,1,2028-12-01,100.85
+SAMPLE0004,Delta Infra Ltd (illustrative),AA,9.10,1,2030-09-20,98.40
+SAMPLE0005,Epsilon Capital (illustrative),AA-,9.75,4,2027-11-10,100.30
+SAMPLE0006,Zeta NBFC (illustrative),A+,10.60,12,2028-05-05,99.75
+SAMPLE0007,Eta Retail Finance (illustrative),A,11.80,12,2027-08-18,97.90
+SAMPLE0008,Theta Realty (illustrative),BBB+,12.90,12,2027-02-25,96.40
+SAMPLE0009,Iota Steel Ltd (illustrative),AA,8.90,2,2033-01-15,97.20
+SAMPLE0010,Kappa Telecom (illustrative),AAA,0.00,1,2028-04-10,87.50

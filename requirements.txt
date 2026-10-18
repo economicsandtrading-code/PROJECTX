@@ -1,0 +1,7 @@
+numpy>=1.26
+scipy>=1.9          # scipy.optimize.milp
+pandas>=2.0
+matplotlib>=3.7     # optional: Monte Carlo histogram
+kiteconnect>=5.0    # live MTM tracker only
+yfinance>=0.2       # optional: market data for the regime classifier
+pytest>=7.0
